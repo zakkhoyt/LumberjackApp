@@ -9,5 +9,7 @@
 #import "LumberjackFrameworkAPI.h"
 
 @implementation LumberjackFrameworkAPI
-
++(void)logString:(NSString*)string{
+    NSLog(@"Logged from framework");
+}
 @end

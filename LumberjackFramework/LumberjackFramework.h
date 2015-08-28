@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double LumberjackFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char LumberjackFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LumberjackFramework/PublicHeader.h>
+#import "LumberjackFrameworkAPI.h"
 
 

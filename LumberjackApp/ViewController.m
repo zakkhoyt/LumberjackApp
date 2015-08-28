@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+@import LumberjackFramework;
+
 @interface ViewController ()
 
 @end
@@ -22,6 +24,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)buttonTouchUpInside:(id)sender {
+    [LumberjackFrameworkAPI logString:@"test"];
 }
 
 @end

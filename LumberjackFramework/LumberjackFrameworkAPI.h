@@ -10,4 +10,5 @@
 
 @interface LumberjackFrameworkAPI : NSObject
 
++(void)logString:(NSString*)string;
 @end
