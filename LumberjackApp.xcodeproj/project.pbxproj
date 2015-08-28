@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C649830C1B9104D30002E21A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C649830B1B9104D30002E21A /* main.m */; };
+		C649830F1B9104D30002E21A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C649830E1B9104D30002E21A /* AppDelegate.m */; };
+		C64983121B9104D30002E21A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64983111B9104D30002E21A /* ViewController.m */; };
+		C64983151B9104D30002E21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64983131B9104D30002E21A /* Main.storyboard */; };
+		C64983171B9104D30002E21A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64983161B9104D30002E21A /* Images.xcassets */; };
+		C649831A1B9104D30002E21A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64983181B9104D30002E21A /* LaunchScreen.xib */; };
+		C64983261B9104D30002E21A /* LumberjackAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64983251B9104D30002E21A /* LumberjackAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C64983201B9104D30002E21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C64982FE1B9104D30002E21A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C64983051B9104D30002E21A;
+			remoteInfo = LumberjackApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C64983061B9104D30002E21A /* LumberjackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumberjackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C649830A1B9104D30002E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C649830B1B9104D30002E21A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C649830D1B9104D30002E21A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C649830E1B9104D30002E21A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C64983101B9104D30002E21A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C64983111B9104D30002E21A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C64983141B9104D30002E21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C64983161B9104D30002E21A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C64983191B9104D30002E21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C649831F1B9104D30002E21A /* LumberjackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumberjackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64983241B9104D30002E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64983251B9104D30002E21A /* LumberjackAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LumberjackAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C64983031B9104D30002E21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649831C1B9104D30002E21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C64982FD1B9104D30002E21A = {
+			isa = PBXGroup;
+			children = (
+				C64983081B9104D30002E21A /* LumberjackApp */,
+				C64983221B9104D30002E21A /* LumberjackAppTests */,
+				C64983071B9104D30002E21A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C64983071B9104D30002E21A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C64983061B9104D30002E21A /* LumberjackApp.app */,
+				C649831F1B9104D30002E21A /* LumberjackAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C64983081B9104D30002E21A /* LumberjackApp */ = {
+			isa = PBXGroup;
+			children = (
+				C649830D1B9104D30002E21A /* AppDelegate.h */,
+				C649830E1B9104D30002E21A /* AppDelegate.m */,
+				C64983101B9104D30002E21A /* ViewController.h */,
+				C64983111B9104D30002E21A /* ViewController.m */,
+				C64983131B9104D30002E21A /* Main.storyboard */,
+				C64983161B9104D30002E21A /* Images.xcassets */,
+				C64983181B9104D30002E21A /* LaunchScreen.xib */,
+				C64983091B9104D30002E21A /* Supporting Files */,
+			);
+			path = LumberjackApp;
+			sourceTree = "<group>";
+		};
+		C64983091B9104D30002E21A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C649830A1B9104D30002E21A /* Info.plist */,
+				C649830B1B9104D30002E21A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C64983221B9104D30002E21A /* LumberjackAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C64983251B9104D30002E21A /* LumberjackAppTests.m */,
+				C64983231B9104D30002E21A /* Supporting Files */,
+			);
+			path = LumberjackAppTests;
+			sourceTree = "<group>";
+		};
+		C64983231B9104D30002E21A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C64983241B9104D30002E21A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C64983051B9104D30002E21A /* LumberjackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64983291B9104D30002E21A /* Build configuration list for PBXNativeTarget "LumberjackApp" */;
+			buildPhases = (
+				C64983021B9104D30002E21A /* Sources */,
+				C64983031B9104D30002E21A /* Frameworks */,
+				C64983041B9104D30002E21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumberjackApp;
+			productName = LumberjackApp;
+			productReference = C64983061B9104D30002E21A /* LumberjackApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C649831E1B9104D30002E21A /* LumberjackAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C649832C1B9104D30002E21A /* Build configuration list for PBXNativeTarget "LumberjackAppTests" */;
+			buildPhases = (
+				C649831B1B9104D30002E21A /* Sources */,
+				C649831C1B9104D30002E21A /* Frameworks */,
+				C649831D1B9104D30002E21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C64983211B9104D30002E21A /* PBXTargetDependency */,
+			);
+			name = LumberjackAppTests;
+			productName = LumberjackAppTests;
+			productReference = C649831F1B9104D30002E21A /* LumberjackAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C64982FE1B9104D30002E21A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Zakk Hoyt";
+				TargetAttributes = {
+					C64983051B9104D30002E21A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C649831E1B9104D30002E21A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C64983051B9104D30002E21A;
+					};
+				};
+			};
+			buildConfigurationList = C64983011B9104D30002E21A /* Build configuration list for PBXProject "LumberjackApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C64982FD1B9104D30002E21A;
+			productRefGroup = C64983071B9104D30002E21A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C64983051B9104D30002E21A /* LumberjackApp */,
+				C649831E1B9104D30002E21A /* LumberjackAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C64983041B9104D30002E21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64983151B9104D30002E21A /* Main.storyboard in Resources */,
+				C649831A1B9104D30002E21A /* LaunchScreen.xib in Resources */,
+				C64983171B9104D30002E21A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649831D1B9104D30002E21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C64983021B9104D30002E21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64983121B9104D30002E21A /* ViewController.m in Sources */,
+				C649830F1B9104D30002E21A /* AppDelegate.m in Sources */,
+				C649830C1B9104D30002E21A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649831B1B9104D30002E21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64983261B9104D30002E21A /* LumberjackAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C64983211B9104D30002E21A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C64983051B9104D30002E21A /* LumberjackApp */;
+			targetProxy = C64983201B9104D30002E21A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C64983131B9104D30002E21A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64983141B9104D30002E21A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C64983181B9104D30002E21A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64983191B9104D30002E21A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C64983271B9104D30002E21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C64983281B9104D30002E21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C649832A1B9104D30002E21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LumberjackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C649832B1B9104D30002E21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LumberjackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C649832D1B9104D30002E21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LumberjackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumberjackApp.app/LumberjackApp";
+			};
+			name = Debug;
+		};
+		C649832E1B9104D30002E21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LumberjackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumberjackApp.app/LumberjackApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C64983011B9104D30002E21A /* Build configuration list for PBXProject "LumberjackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64983271B9104D30002E21A /* Debug */,
+				C64983281B9104D30002E21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64983291B9104D30002E21A /* Build configuration list for PBXNativeTarget "LumberjackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C649832A1B9104D30002E21A /* Debug */,
+				C649832B1B9104D30002E21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C649832C1B9104D30002E21A /* Build configuration list for PBXNativeTarget "LumberjackAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C649832D1B9104D30002E21A /* Debug */,
+				C649832E1B9104D30002E21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C64982FE1B9104D30002E21A /* Project object */;
+}
