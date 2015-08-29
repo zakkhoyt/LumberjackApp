@@ -17,6 +17,10 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 static const int ddLogLevel = LOG_LEVEL_ERROR;
 #endif
 
+@interface ViewController ()
+@property (nonatomic, strong) LumberjackFrameworkAPI *lumberjackAPI;
+@end
+
 @implementation ViewController
 
 - (IBAction)appButtonTouchUpInside:(id)sender {
@@ -25,7 +29,14 @@ static const int ddLogLevel = LOG_LEVEL_ERROR;
 
 
 - (IBAction)frameworkButtonTouchUpInside:(id)sender {
+    
     [LumberjackFrameworkAPI logString:@"Logging with lumberjack from framework"];
+    
+    if(_lumberjackAPI == nil) {
+        _lumberjackAPI = [[LumberjackFrameworkAPI alloc]init];
+    }
+    
+    
 }
 
 @end

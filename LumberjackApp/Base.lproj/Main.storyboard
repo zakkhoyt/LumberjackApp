@@ -28,9 +28,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cec-DR-xsJ">
-                                <rect key="frame" x="16" y="58" width="120" height="30"/>
+                                <rect key="frame" x="16" y="58" width="284" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Log in framework">
+                                <state key="normal" title="Log in framework and connect to pubnub">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
