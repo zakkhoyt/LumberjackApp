@@ -13,12 +13,6 @@
 #import "DDTTYLogger.h"
 #import "DDFileLogger.h"
 
-//@import CocoaLumberjack;
-//#import "CocoaLumberjack.h"
-//#import "DDLogMacros.h"
-
-
-
 #ifdef DEBUG
 static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 #else
@@ -32,9 +26,9 @@ static const int ddLogLevel = LOG_LEVEL_ERROR;
     // Configure CocoaLumberjack
     [DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
-
 }
+
 +(void)logString:(NSString*)string{
-    DDLogDebug(@"Logging with lumberjack from framework");
+    DDLogDebug(@"%@", string);
 }
 @end

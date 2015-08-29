@@ -242,7 +242,7 @@ unsigned long long const kDDDefaultLogFilesDiskQuota   = 20 * 1024 * 1024; // 20
 - (NSString *)defaultLogsDirectory {
 #if TARGET_OS_IPHONE
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
-    NSString *baseDir = paths.firstObject;
+    NSString *baseDir = ([paths count] > 0) ? [paths objectAtIndex:0] : nil;
     NSString *logsDirectory = [baseDir stringByAppendingPathComponent:@"Logs"];
 
 #else
@@ -1080,9 +1080,9 @@ static int exception_count = 0;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #if TARGET_IPHONE_SIMULATOR
-    static NSString * const kDDXAttrArchivedName = @"archived";
+    NSString * const kDDXAttrArchivedName = @"archived";
 #else
-    static NSString * const kDDXAttrArchivedName = @"lumberjack.log.archived";
+    NSString * const kDDXAttrArchivedName = @"lumberjack.log.archived";
 #endif
 
 @interface DDLogFileInfo () {
@@ -1297,7 +1297,7 @@ static int exception_count = 0;
     // Watch out for file names without an extension
 
     for (NSUInteger i = 1; i < components.count; i++) {
-        NSString *attr = components[i];
+        NSString *attr = [components objectAtIndex:i];
 
         if ([attrName isEqualToString:attr]) {
             return YES;
@@ -1329,7 +1329,7 @@ static int exception_count = 0;
     NSMutableString *newFileName = [NSMutableString stringWithCapacity:estimatedNewLength];
 
     if (count > 0) {
-        [newFileName appendString:components.firstObject];
+        [newFileName appendString:[components objectAtIndex:0]];
     }
 
     NSString *lastExt = @"";
@@ -1337,7 +1337,7 @@ static int exception_count = 0;
     NSUInteger i;
 
     for (i = 1; i < count; i++) {
-        NSString *attr = components[i];
+        NSString *attr = [components objectAtIndex:i];
 
         if ([attr length] == 0) {
             continue;
@@ -1386,7 +1386,7 @@ static int exception_count = 0;
     NSMutableString *newFileName = [NSMutableString stringWithCapacity:estimatedNewLength];
 
     if (count > 0) {
-        [newFileName appendString:components.firstObject];
+        [newFileName appendString:[components objectAtIndex:0]];
     }
 
     BOOL found = NO;
@@ -1394,7 +1394,7 @@ static int exception_count = 0;
     NSUInteger i;
 
     for (i = 1; i < count; i++) {
-        NSString *attr = components[i];
+        NSString *attr = [components objectAtIndex:i];
 
         if ([attrName isEqualToString:attr]) {
             found = YES;

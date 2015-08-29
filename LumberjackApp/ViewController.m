@@ -17,37 +17,15 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 static const int ddLogLevel = LOG_LEVEL_ERROR;
 #endif
 
-
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (IBAction)appButtonTouchUpInside:(id)sender {
-//    [LumberjackFrameworkAPI logString:@"test"];
-
     DDLogDebug(@"Logging with lumberjack from app");
-//    DDLogError(@"This is an error.");
-//    DDLogWarn(@"This is a warning.");
-//    DDLogInfo(@"This is just a message.");
-//    DDLogVerbose(@"This is a verbose message.");
 }
 
 
 - (IBAction)frameworkButtonTouchUpInside:(id)sender {
-    [LumberjackFrameworkAPI logString:@"test"];
+    [LumberjackFrameworkAPI logString:@"Logging with lumberjack from framework"];
 }
 
 @end

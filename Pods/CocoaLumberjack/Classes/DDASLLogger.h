@@ -22,12 +22,6 @@
 
 #import "DDLog.h"
 
-// Custom key set on messages sent to ASL
-extern const char* const kDDASLKeyDDLog;
-
-// Value set for kDDASLKeyDDLog
-extern const char* const kDDASLDDLogValue;
-
 /**
  * This class provides a logger for the Apple System Log facility.
  *

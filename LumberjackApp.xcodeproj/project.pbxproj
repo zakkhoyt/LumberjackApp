@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5684CBCE7786EAB31733886A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA42F4312895355381254D9 /* libPods.a */; };
+		0F015240190125F0ACC26910 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7B20E04BBCFDFD0931A328 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1AF6329F22F4BB4E4062F7DC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7B20E04BBCFDFD0931A328 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C649830C1B9104D30002E21A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C649830B1B9104D30002E21A /* main.m */; };
 		C649830F1B9104D30002E21A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C649830E1B9104D30002E21A /* AppDelegate.m */; };
 		C64983121B9104D30002E21A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64983111B9104D30002E21A /* ViewController.m */; };
@@ -72,7 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AAA42F4312895355381254D9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7B20E04BBCFDFD0931A328 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64983061B9104D30002E21A /* LumberjackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumberjackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C649830A1B9104D30002E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C649830B1B9104D30002E21A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,7 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C649834B1B9104E30002E21A /* LumberjackFramework.framework in Frameworks */,
-				5684CBCE7786EAB31733886A /* libPods.a in Frameworks */,
+				0F015240190125F0ACC26910 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6BC3FA91B910D4B00EA6FBB /* libPods.a in Frameworks */,
+				1AF6329F22F4BB4E4062F7DC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +144,7 @@
 			children = (
 				C6BC3FA81B910D4B00EA6FBB /* libPods.a */,
 				C649835C1B91095E0002E21A /* libPods.a */,
-				AAA42F4312895355381254D9 /* libPods.a */,
+				AE7B20E04BBCFDFD0931A328 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,6 +285,7 @@
 				C64983041B9104D30002E21A /* Resources */,
 				C64983501B9104E30002E21A /* Embed Frameworks */,
 				E57EA4DEE82798CB493A5EFD /* Copy Pods Resources */,
+				33BEE0B1B980EDF1601B4BB5 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -446,6 +449,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33BEE0B1B980EDF1601B4BB5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4A72627A0408E6FD164089D7 /* Check Pods Manifest.lock */ = {
